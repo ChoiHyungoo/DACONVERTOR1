@@ -1,0 +1,26 @@
+Date and Time : 07/30/19 12:25:25
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1831): Unconnected pin U2,OFFSET1 
+                    SCHEMATIC1, PAGE1  (200.66, 76.20) 
+WARNING(ORCAP-1831): Unconnected pin U2,OFFSET2 
+                    SCHEMATIC1, PAGE1  (200.66, 50.80) 
+WARNING(ORCAP-1831): Unconnected pin U2,OFFSET3 
+                    SCHEMATIC1, PAGE1  (203.20, 50.80) 
+WARNING(ORCAP-1831): Unconnected pin U5,OFFSET3 
+                    SCHEMATIC1, PAGE1  (170.18, 101.60) 
+WARNING(ORCAP-1831): Unconnected pin U4,OFFSET3 
+                    SCHEMATIC1, PAGE1  (139.70, 99.06) 
+WARNING(ORCAP-1608): Net has no driving source CLOCK 
+                    SCHEMATIC1, PAGE1  (93.98, 60.96) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections CLOCK 
+                    SCHEMATIC1, PAGE1  (93.98, 60.96) 
+WARNING(ORCAP-1600): Net has fewer than two connections 5V 
+                    SCHEMATIC1, PAGE1  (40.64, 58.42) 
+
+Checking For Unconnected Bus Nets
