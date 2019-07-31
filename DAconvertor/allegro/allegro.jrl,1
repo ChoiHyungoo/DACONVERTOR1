@@ -1,0 +1,461 @@
+\t (00:00:15) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:15)     Journal start - Wed Jul 31 14:42:40 2019
+\t (00:00:15)         Host=HGHG User=user Pid=6808 CPUs=4
+\t (00:00:15) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession user C:\WORK_ORCAD\DACONVERTOR\allegro\DACONVERTOR.brd
+\t (00:00:15) 
+   (00:00:15) Loading axlcore.cxt 
+\t (00:00:21) Opening existing design...
+\d (00:00:21) Design opened: C:/WORK_ORCAD/DACONVERTOR/allegro/DACONVERTOR.brd
+\i (00:00:21) trapsize 1716
+\i (00:00:21) trapsize 1756
+\i (00:00:22) trapsize 2852
+\i (00:00:22) trapsize 2729
+\i (00:00:22) generaledit 
+\i (00:00:44) prmed 
+\i (00:00:45) setwindow form.prmedit
+\i (00:00:45) FORM prmedit display_plated_holes YES 
+\i (00:00:45) FORM prmedit display_backdrill_holes YES 
+\i (00:00:46) FORM prmedit display_non_plated_holes YES 
+\i (00:00:46) FORM prmedit display_thermal YES 
+\i (00:00:47) FORM prmedit display_fat_rats YES 
+\i (00:00:47) FORM prmedit waived_drc_on YES 
+\i (00:00:48) FORM prmedit via_labels YES 
+\i (00:00:48) FORM prmedit dp_driver_pins YES 
+\i (00:00:49) FORM prmedit secondary_step_model YES 
+\i (00:00:50) FORM prmedit design  
+\i (00:00:51) FORM prmedit size A4 
+\i (00:00:54) FORM prmedit x -50.000 
+\i (00:00:56) FORM prmedit y -50.000 
+\i (00:00:58) FORM prmedit done  
+\i (00:00:58) setwindow pcb
+\i (00:00:58) trapsize 1327
+\i (00:00:58) generaledit 
+\i (00:01:03) define grid 
+\t (00:01:03) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:01:03) generaledit 
+\i (00:01:05) setwindow form.grid
+\i (00:01:05) FORM grid non_etch non_etch_x_grids 0.1 
+\i (00:01:07) FORM grid non_etch non_etch_y_grids 0.1 
+\i (00:01:08) FORM grid done  
+\i (00:01:17) setwindow pcb
+\i (00:01:17) board outline 
+   (00:01:17) Loading floor.cxt 
+   (00:01:17) Loading fputil.cxt 
+\i (00:01:21) setwindow form.fpbdoutline
+\i (00:01:21) FORM fpbdoutline fpboplacerect YES 
+\i (00:01:27) FORM fpbdoutline fpboclearance 1.5 
+\i (00:01:31) FORM fpbdoutline fpboplacewdt 100 
+\i (00:01:32) FORM fpbdoutline fpboplacehgt 70 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) pick 0,0 
+\t (00:01:37) last pick:  0.000 0.000
+\i (00:01:39) pick 0,0 
+\t (00:01:39) last pick:  0.000 0.000
+\i (00:01:40) pick 0,0 
+\t (00:01:40) last pick:  0.000 0.000
+\i (00:01:42) setwindow form.fpbdoutline
+\i (00:01:42) FORM fpbdoutline apply  
+\i (00:01:43) fillin confirm
+\i (00:01:43) FORM fpbdoutline done  
+\i (00:01:43) setwindow pcb
+\i (00:01:43) generaledit 
+\i (00:02:06) dimension edit 
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in 4.425 68.938
+\i (00:02:06) trapsize 664
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in 2.965 68.938
+\i (00:02:06) trapsize 332
+\i (00:02:07) prepopup 2.368 71.328
+\i (00:02:08) pop dyn_option_select '@:@Linear dimension' 
+\t (00:02:08) Pick an element or point to dimension ...
+\i (00:02:10) pick grid -0.154 70.266
+\t (00:02:10) last pick:  -0.200 70.300
+\t (00:02:10) First point found ... pick the second point.
+\i (00:02:11) roam x 96 
+\i (00:02:11) roam x 96
+\i (00:02:12) roam x 96 
+\i (00:02:12) roam x 96
+\i (00:02:14) pick grid 99.868 70.001
+\t (00:02:14) last pick:  99.900 70.000
+\t (00:02:14) Pick location for the dimension value.
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out 33.098 83.275
+\i (00:02:15) trapsize 664
+\i (00:02:16) pick grid 46.637 85.266
+\t (00:02:16) last pick:  46.600 85.300
+\t (00:02:16) Pick an element or point to dimension ...
+\i (00:02:18) pick grid 100.133 70.399
+\t (00:02:18) last pick:  100.100 70.400
+\t (00:02:18) Pick an element or point to dimension ...
+\t (00:02:18) First point found ... pick the second point.
+\i (00:02:19) pick grid 100.000 0.310
+\t (00:02:19) last pick:  100.000 0.300
+\t (00:02:20) Pick location for the dimension value.
+\i (00:02:21) pick grid 113.142 33.098
+\t (00:02:21) last pick:  113.100 33.100
+\t (00:02:21) Pick an element or point to dimension ...
+\i (00:02:21) prepopup 123.761 37.080
+\i (00:02:22) done 
+\i (00:02:22) generaledit 
+\i (00:03:46) pick grid -8.452 18.629
+\t (00:03:46) last pick:  -8.500 18.600
+\i (00:03:53) cmgr 
+\i (00:03:54) generaledit 
+\i (00:03:57) setwindow cmgr
+\i (00:03:57) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:04:00) cm close ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:04:00) cm exit
+\i (00:04:15) setwindow pcb
+\i (00:04:15) place manual 
+\i (00:04:16) setwindow form.plc_manual
+\i (00:04:16) FORM plc_manual advanced_settings  
+\i (00:04:17) FORM plc_manual library YES 
+\i (00:04:18) FORM plc_manual placement_list  
+\i (00:04:20) FORM plc_manual categories Mechanical symbols 
+\i (00:04:21) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\w (00:04:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:04:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:04:21) FORM plc_manual tree  MTG125 'Mechanical symbols' 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) pick 5,5 
+\t (00:04:35) last pick:  5.000 5.000
+\i (00:04:40) setwindow form.plc_manual
+\i (00:04:40) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:04:41) FORM plc_manual hide  
+\i (00:04:48) setwindow pcb
+\i (00:04:48) pick 5,65 
+\t (00:04:48) last pick:  5.000 65.000
+\i (00:04:52) place manual 
+\i (00:04:53) setwindow form.plc_manual
+\i (00:04:53) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:04:53) FORM plc_manual tree  MTG125 'Mechanical symbols' 
+\i (00:05:02) setwindow pcb
+\i (00:05:02) pick 95,5 
+\t (00:05:02) last pick:  95.000 5.000
+\i (00:05:05) setwindow form.plc_manual
+\i (00:05:05) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:05:10) setwindow pcb
+\i (00:05:10) pick 95,65 
+\t (00:05:10) last pick:  95.000 65.000
+\i (00:05:13) setwindow form.plc_manual
+\i (00:05:13) FORM plc_manual hide  
+\i (00:05:14) setwindow pcb
+\i (00:05:14) zoom out 1 
+\i (00:05:14) setwindow pcb
+\i (00:05:14) zoom out 45.044 86.063
+\i (00:05:14) trapsize 1327
+\i (00:05:15) zoom in 1 
+\i (00:05:15) setwindow pcb
+\i (00:05:15) zoom in -24.513 66.549
+\i (00:05:15) trapsize 664
+\i (00:05:17) place manual 
+\i (00:05:19) setwindow form.plc_manual
+\i (00:05:19) FORM plc_manual categories Components by refdes 
+\i (00:05:21) setwindow pcb
+\i (00:05:21) trapsize 1237
+\i (00:05:24) zoom out 1 
+\i (00:05:24) setwindow pcb
+\i (00:05:24) zoom out 20.622 75.799
+\i (00:05:24) trapsize 1832
+\i (00:05:25) zoom in 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom in 4.241 36.126
+\i (00:05:25) trapsize 916
+\i (00:05:39) setwindow form.plc_manual
+\i (00:05:39) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\w (00:05:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:05:39) Placing C1 / C_CAP196_0.1UF / CAP196 on Top.
+\i (00:05:39) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) pick grid 10.838 50.236
+\t (00:05:46) last pick:  10.800 50.200
+\i (00:05:50) setwindow form.plc_manual
+\i (00:05:50) FORM plc_manual tree 'MULTISEL YES' R1 'Components by refdes' 
+\w (00:05:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:05:50) Placing R1 / R_RES400_10K / RES400 on Top.
+\i (00:05:50) FORM plc_manual tree  R1 'Components by refdes' 
+\i (00:05:53) FORM plc_manual tree  R2 'Components by refdes' 
+\i (00:05:54) setwindow pcb
+\i (00:05:54) pick grid 18.535 55.733
+\t (00:05:54) last pick:  18.500 55.700
+\i (00:05:57) pick grid 19.634 57.749
+\t (00:05:57) last pick:  19.600 57.700
+\t (00:05:57) Moving R1 / R_RES400_10K / RES400.
+\t (00:05:57) last pick:  18.500 55.700
+\e (00:05:59) Command not found: rrr
+\i (00:06:00) pick grid 18.901 56.100
+\t (00:06:00) last pick:  18.900 56.100
+\i (00:06:04) setwindow form.plc_manual
+\i (00:06:04) FORM plc_manual tree 'MULTISEL YES' R2 'Components by refdes' 
+\t (00:06:04) Placing R2 / R_RES400_5.1K / RES400 on Top.
+\i (00:06:07) setwindow pcb
+\i (00:06:07) pick grid 43.456 55.733
+\t (00:06:07) last pick:  43.500 55.700
+\i (00:06:11) setwindow form.plc_manual
+\i (00:06:11) FORM plc_manual tree 'MULTISEL YES' R3 'Components by refdes' 
+\t (00:06:11) Placing R3 / R_RES400_10K / RES400 on Top.
+\i (00:06:11) FORM plc_manual tree  R3 'Components by refdes' 
+\i (00:06:14) setwindow pcb
+\i (00:06:14) pick grid 31.362 43.456
+\t (00:06:14) last pick:  31.400 43.500
+\i (00:06:22) setwindow form.plc_manual
+\i (00:06:22) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\w (00:06:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:22) Placing U1 / LM741_1_DIP8_3_LM741 / DIP8_3 on Top.
+\i (00:06:22) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:06:28) setwindow pcb
+\i (00:06:28) pick grid 18.351 50.236
+\t (00:06:28) last pick:  18.400 50.200
+\i (00:06:31) setwindow form.plc_manual
+\i (00:06:31) FORM plc_manual tree 'MULTISEL YES' R7 'Components by refdes' 
+\t (00:06:31) Placing R7 / R_RES400_6.8K / RES400 on Top.
+\i (00:06:31) FORM plc_manual tree  R7 'Components by refdes' 
+\i (00:06:34) setwindow pcb
+\i (00:06:34) pick grid 20.917 25.864
+\t (00:06:34) last pick:  20.900 25.900
+\i (00:06:40) setwindow form.plc_manual
+\i (00:06:40) FORM plc_manual tree 'MULTISEL YES' R8 'Components by refdes' 
+\t (00:06:40) Placing R8 / R_RES400_1K / RES400 on Top.
+\i (00:06:40) FORM plc_manual tree  R8 'Components by refdes' 
+\i (00:06:45) setwindow pcb
+\i (00:06:45) pick grid 13.587 23.115
+\t (00:06:45) last pick:  13.600 23.100
+\i (00:06:55) pick grid 31.911 48.403
+\t (00:06:55) last pick:  31.900 48.400
+\t (00:06:55) Moving R3 / R_RES400_10K / RES400.
+\t (00:06:55) last pick:  31.400 43.500
+\i (00:06:56) pick grid 36.309 41.257
+\t (00:06:56) last pick:  36.300 41.300
+\i (00:07:00) setwindow form.plc_manual
+\i (00:07:00) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
+\t (00:07:00) Placing U2 / LM741_1_DIP8_3_LM741 / DIP8_3 on Top.
+\i (00:07:00) FORM plc_manual tree  U2 'Components by refdes' 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) pick grid 52.069 50.236
+\t (00:07:04) last pick:  52.100 50.200
+\i (00:07:07) setwindow form.plc_manual
+\i (00:07:07) FORM plc_manual tree 'MULTISEL YES' R6 'Components by refdes' 
+\t (00:07:07) Placing R6 / R_RES400_10K / RES400 on Top.
+\i (00:07:07) FORM plc_manual tree  R6 'Components by refdes' 
+\i (00:07:09) setwindow pcb
+\i (00:07:09) pick grid 44.006 28.796
+\t (00:07:09) last pick:  44.000 28.800
+\i (00:07:12) setwindow form.plc_manual
+\i (00:07:12) FORM plc_manual tree 'MULTISEL YES' R4 'Components by refdes' 
+\t (00:07:12) Placing R4 / R_RES400_1K / RES400 on Top.
+\i (00:07:12) FORM plc_manual tree  R4 'Components by refdes' 
+\i (00:07:14) setwindow pcb
+\i (00:07:14) pick grid 73.325 40.890
+\t (00:07:14) last pick:  73.300 40.900
+\i (00:07:15) setwindow form.plc_manual
+\i (00:07:15) FORM plc_manual tree 'MULTISEL YES' R5 'Components by refdes' 
+\t (00:07:15) Placing R5 / R_RES400_1K / RES400 on Top.
+\i (00:07:15) FORM plc_manual tree  R5 'Components by refdes' 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) pick grid 85.236 40.157
+\t (00:07:17) last pick:  85.200 40.200
+\i (00:07:22) setwindow form.plc_manual
+\i (00:07:22) FORM plc_manual tree 'MULTISEL YES' D1 'Components by refdes' 
+\w (00:07:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:07:22) Placing D1 / D10D1_DO41_1N4148 / DO41 on Top.
+\i (00:07:22) FORM plc_manual tree  D1 'Components by refdes' 
+\i (00:07:25) setwindow pcb
+\i (00:07:25) pick grid 74.241 26.047
+\t (00:07:25) last pick:  74.200 26.000
+\i (00:07:26) setwindow form.plc_manual
+\i (00:07:26) FORM plc_manual tree 'MULTISEL YES' D2 'Components by refdes' 
+\t (00:07:26) Placing D2 / RD100EB_DO41_RD 5.6A / DO41 on Top.
+\i (00:07:26) FORM plc_manual tree  D2 'Components by refdes' 
+\i (00:07:27) setwindow pcb
+\i (00:07:27) pick grid 90.733 25.498
+\t (00:07:27) last pick:  90.700 25.500
+\i (00:08:36) setwindow form.plc_manual
+\i (00:08:36) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\w (00:08:36) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:08:36) Placing J1 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:08:36) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:08:40) setwindow pcb
+\i (00:08:40) pick grid 90.733 20.367
+\t (00:08:40) last pick:  90.700 20.400
+\i (00:08:41) setwindow form.plc_manual
+\i (00:08:41) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\w (00:08:41) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:08:41) Placing J2 / CON4_JUMPER4_CON4 / JUMPER4 on Top.
+\i (00:08:41) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:08:44) setwindow pcb
+\i (00:08:44) pick grid 3.325 19.084
+\t (00:08:44) last pick:  3.300 19.100
+\i (00:08:48) pick grid 62.147 15.236
+\t (00:08:48) last pick:  62.100 15.200
+\i (00:08:53) setwindow form.plc_manual
+\i (00:08:53) FORM plc_manual tree 'MULTISEL YES' R9 'Components by refdes' 
+\t (00:08:53) Placing R9 / R_RES400_22K / RES400 on Top.
+\i (00:08:53) FORM plc_manual tree  R9 'Components by refdes' 
+\i (00:08:56) FORM plc_manual tree  R10 'Components by refdes' 
+\i (00:08:56) FORM plc_manual tree  R11 'Components by refdes' 
+\i (00:08:57) FORM plc_manual tree  R12 'Components by refdes' 
+\i (00:08:57) FORM plc_manual tree  R13 'Components by refdes' 
+\i (00:08:57) FORM plc_manual tree  R14 'Components by refdes' 
+\i (00:08:58) setwindow pcb
+\i (00:08:58) prepopup 38.692 21.466
+\i (00:09:01) rotate 
+\t (00:09:01) Spin the element(s).
+\i (00:09:04) iangle 90.000
+\t (00:09:04) last angle:  +90.000 Degrees
+\i (00:09:05) pick grid 39.425 26.780
+\t (00:09:05) last pick:  39.400 26.800
+\i (00:09:07) setwindow form.plc_manual
+\i (00:09:07) FORM plc_manual tree 'MULTISEL YES' R10 'Components by refdes' 
+\t (00:09:07) Placing R10 / R_RES400_22K / RES400 on Top.
+\i (00:09:07) FORM plc_manual tree  R10 'Components by refdes' 
+\i (00:09:07) setwindow pcb
+\i (00:09:07) prepopup 34.843 15.236
+\i (00:09:09) rotate 
+\t (00:09:09) Spin the element(s).
+\i (00:09:11) iangle 90.000
+\t (00:09:11) last angle:  +90.000 Degrees
+\i (00:09:21) pick grid 65.629 26.230
+\t (00:09:21) last pick:  65.600 26.200
+\i (00:09:25) setwindow form.plc_manual
+\i (00:09:25) FORM plc_manual tree 'MULTISEL YES' R11 'Components by refdes' 
+\t (00:09:25) Placing R11 / R_RES400_10K / RES400 on Top.
+\i (00:09:25) FORM plc_manual tree  R11 'Components by refdes' 
+\i (00:09:32) setwindow pcb
+\i (00:09:32) pick grid 50.053 15.969
+\t (00:09:32) last pick:  50.100 16.000
+\i (00:09:34) setwindow form.plc_manual
+\i (00:09:34) FORM plc_manual tree 'MULTISEL YES' R12 'Components by refdes' 
+\t (00:09:34) Placing R12 / R_RES400_22K / RES400 on Top.
+\i (00:09:34) FORM plc_manual tree  R12 'Components by refdes' 
+\i (00:09:35) setwindow pcb
+\i (00:09:35) prepopup 35.576 13.220
+\i (00:09:36) rotate 
+\t (00:09:36) Spin the element(s).
+\i (00:09:37) iangle 90.000
+\t (00:09:37) last angle:  +90.000 Degrees
+\i (00:09:39) pick grid 39.791 19.450
+\t (00:09:39) last pick:  39.800 19.500
+\i (00:09:40) setwindow form.plc_manual
+\i (00:09:40) FORM plc_manual tree 'MULTISEL YES' R13 'Components by refdes' 
+\t (00:09:40) Placing R13 / R_RES400_10K / RES400 on Top.
+\i (00:09:40) FORM plc_manual tree  R13 'Components by refdes' 
+\i (00:09:55) setwindow pcb
+\i (00:09:55) pick grid 55.367 5.157
+\t (00:09:55) last pick:  55.400 5.200
+\i (00:09:57) setwindow form.plc_manual
+\i (00:09:57) FORM plc_manual tree 'MULTISEL YES' R14 'Components by refdes' 
+\t (00:09:57) Placing R14 / R_RES400_22K / RES400 on Top.
+\i (00:09:57) FORM plc_manual tree  R14 'Components by refdes' 
+\i (00:09:59) setwindow pcb
+\i (00:09:59) prepopup 34.110 5.340
+\i (00:10:00) rotate 
+\t (00:10:00) Spin the element(s).
+\i (00:10:02) iangle 180.000
+\t (00:10:02) last angle:  +180.000 Degrees
+\i (00:10:02) prepopup 37.409 10.655
+\i (00:10:03) rotate 
+\t (00:10:03) Spin the element(s).
+\i (00:10:06) iangle 90.000
+\t (00:10:06) last angle:  +90.000 Degrees
+\i (00:10:07) pick grid 40.158 14.320
+\t (00:10:07) last pick:  40.200 14.300
+\i (00:10:09) setwindow form.plc_manual
+\i (00:10:09) FORM plc_manual tree 'MULTISEL YES' R15 'Components by refdes' 
+\t (00:10:09) Placing R15 / R_RES400_10K / RES400 on Top.
+\i (00:10:09) FORM plc_manual tree  R15 'Components by refdes' 
+\i (00:10:13) setwindow pcb
+\i (00:10:13) pick grid 61.414 6.806
+\t (00:10:13) last pick:  61.400 6.800
+\i (00:10:14) setwindow form.plc_manual
+\i (00:10:14) FORM plc_manual tree 'MULTISEL YES' R16 'Components by refdes' 
+\t (00:10:14) Placing R16 / R_RES400_10K / RES400 on Top.
+\i (00:10:14) FORM plc_manual tree  R16 'Components by refdes' 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) pick grid 70.576 6.257
+\t (00:10:18) last pick:  70.600 6.300
+\i (00:10:21) setwindow form.plc_manual
+\i (00:10:21) FORM plc_manual tree 'MULTISEL YES' R17 'Components by refdes' 
+\t (00:10:21) Placing R17 / R_RES400_22K / RES400 on Top.
+\i (00:10:21) FORM plc_manual tree  R17 'Components by refdes' 
+\i (00:10:22) setwindow pcb
+\i (00:10:22) prepopup 37.409 3.142
+\i (00:10:24) rotate 
+\t (00:10:24) Spin the element(s).
+\i (00:10:26) iangle 180.000
+\t (00:10:26) last angle:  +180.000 Degrees
+\i (00:10:26) prepopup 38.875 9.555
+\i (00:10:27) rotate 
+\t (00:10:27) Spin the element(s).
+\i (00:10:29) iangle -90.000
+\t (00:10:29) last angle:  +270.000 Degrees
+\i (00:10:30) pick grid 30.629 9.189
+\t (00:10:30) last pick:  30.600 9.200
+\i (00:10:36) setwindow form.plc_manual
+\i (00:10:36) FORM plc_manual tree 'MULTISEL YES' R18 'Components by refdes' 
+\t (00:10:36) Placing R18 / R_RES400_10K / RES400 on Top.
+\i (00:10:36) FORM plc_manual tree  R18 'Components by refdes' 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) pick grid 59.948 -6.937
+\t (00:10:37) last pick:  59.900 -6.900
+\i (00:10:39) setwindow form.plc_manual
+\i (00:10:39) FORM plc_manual tree 'MULTISEL YES' U3 'Components by refdes' 
+\w (00:10:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:10:39) Placing U3 / 74LS90_0_DIP14_3_74LS90_+5V / DIP14_3 on Top.
+\i (00:10:39) FORM plc_manual tree  U3 'Components by refdes' 
+\i (00:10:47) setwindow pcb
+\i (00:10:47) pick grid 17.985 21.100
+\t (00:10:47) last pick:  18.000 21.100
+\e (00:10:47) ERROR(SPMHGE-82): Pin numbers do not match between symbol and component. Run dev_check on device file for more information.
+\t (00:10:47) Placing U3 / 74LS90_0_DIP14_3_74LS90_+5V / DIP14_3 on Top.
+\i (00:10:48) setwindow form.plc_manual
+\i (00:10:48) FORM plc_manual tree 'MULTISEL YES' U3 'Components by refdes' 
+\t (00:10:48) Placing U3 / 74LS90_0_DIP14_3_74LS90_+5V / DIP14_3 on Top.
+\i (00:10:50) setwindow pcb
+\i (00:10:50) pick grid 17.069 11.571
+\t (00:10:50) last pick:  17.100 11.600
+\e (00:10:50) ERROR(SPMHGE-82): Pin numbers do not match between symbol and component. Run dev_check on device file for more information.
+\t (00:10:50) Placing U3 / 74LS90_0_DIP14_3_74LS90_+5V / DIP14_3 on Top.
+\i (00:10:52) setwindow form.plc_manual
+\i (00:10:52) FORM plc_manual tree 'MULTISEL YES' U4 'Components by refdes' 
+\t (00:10:52) Placing U4 / LM741_1_DIP8_3_LM741 / DIP8_3 on Top.
+\i (00:10:52) FORM plc_manual tree  U4 'Components by refdes' 
+\i (00:10:59) setwindow pcb
+\i (00:10:59) pick grid 78.822 19.634
+\t (00:10:59) last pick:  78.800 19.600
+\i (00:11:01) setwindow form.plc_manual
+\i (00:11:01) FORM plc_manual hide  
+\i (00:11:02) setwindow pcb
+\i (00:11:02) pick grid 121.152 31.911
+\t (00:11:02) last pick:  121.200 31.900
+\e (00:11:04) Command not found: r~S~S~S~S
+\i (00:11:04) save 
+\i (00:11:05) fillin yes 
+   (00:11:05) Loading consmgr.cxt 
+   (00:11:05) Loading acns_formula.cxt 
+\i (00:11:05) generaledit 
+\e (00:11:06) Command not found: ~S
+\i (00:11:13) xhilite 
+\i (00:11:13) xrefdes U3 
+\t (00:11:13) Can not select unplaced component U3.
+\t (00:11:13) Can not select unplaced component U3.
+\i (00:11:13) xname_flush 
+\i (00:11:13) done 
+\i (00:11:13) generaledit 
+\i (00:14:05) xhilite 
+\i (00:14:05) xrefdes U3 
+\t (00:14:05) Can not select unplaced component U3.
+\t (00:14:05) Can not select unplaced component U3.
+\i (00:14:05) xname_flush 
+\i (00:14:05) done 
+\i (00:14:05) generaledit 
+\i (00:14:09) pick grid 120.053 28.429
+\t (00:14:09) last pick:  120.100 28.400
+\i (00:14:09) save 
+\i (00:14:10) fillin yes 
+\i (00:14:10) generaledit 
+\i (00:14:13) exit 
+\t (00:14:13)     Journal end - Wed Jul 31 14:56:38 2019

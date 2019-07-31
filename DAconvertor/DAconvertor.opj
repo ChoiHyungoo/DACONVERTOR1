@@ -1,10 +1,10 @@
-(ExpressProject "CHOPPINGWAVEOSC"
+(ExpressProject "DAconvertor"
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
     (NoModify)
-    (File ".\choppingwaveosc.dsn"
+    (File ".\daconvertor.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
@@ -15,7 +15,7 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File "C:\WORK_ORCAD\CHOPPINGWAVEOSC\CHOPPINGWAVEOSC.DRC")
+    (DRC_Report_File "C:\WORK_ORCAD\DACONVERTOR\DACONVERTOR.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -48,7 +48,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\CHOPPING\CHOPPINGWAVEOSC.brd")
+    ("Allegro Netlist Output Board File" "allegro\DACONVERTOR.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ORCAD")
@@ -59,9 +59,10 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    ("Allegro Netlist Input Board File" "allegro\DACONVERTOR.brd"))
   (Folder "Outputs"
-    (File ".\choppingwaveosc.drc"
+    (File ".\daconvertor.drc"
       (Type "Report"))
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -74,12 +75,36 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (GND
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (CON2
       (FullPartName "CON2.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (74LS90
+      (FullPartName "74LS90.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\COUNTER.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (RD100EB
+      (FullPartName "RD100EB.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
+      (DeviceIndex "0"))
+    (D10D1
+      (FullPartName "D10D1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
       (DeviceIndex "0"))
     (VCC_ARROW
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -87,34 +112,27 @@
     (VCC
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (LF356
-      (FullPartName "LF356.Normal")
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM741
+      (FullPartName "LM741.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (POT
-      (FullPartName "POT.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (CON3
-      (FullPartName "CON3.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "user")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Outputs")
-      (Select "Design Resources"
-         "c:\work_orcad\choppingwaveosc\choppingwaveosc.dsn"))
+      (Select "Design Resources" "C:\work_OrCAD\DAconvertor\daconvertor.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -122,13 +140,25 @@
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 430"))
       (Tab 0))
     (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1475 125 593"))
+      (Path "C:\work_OrCAD\DAconvertor\daconvertor.drc")
+      (Scroll "0"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1694 50 518")
-        (Scroll "171 275")
-        (Zoom "152")
+        (Placement "44 0 1 -1 -1 -8 -30 200 1550 200 668")
+        (Scroll "-229 0")
+        (Zoom "87")
         (Occurrence "/"))
-      (Path "C:\WORK_ORCAD\CHOPPINGWAVEOSC\CHOPPINGWAVEOSC.DSN")
+      (Path "C:\WORK_ORCAD\DACONVERTOR\DACONVERTOR.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1500 150 618"))
+      (Path "C:\work_OrCAD\DAconvertor\allegro\pstchip.dat")
+      (Scroll "225")))
   (ISPCBBASICLICENSE "false"))
